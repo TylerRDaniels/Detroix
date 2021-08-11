@@ -1,0 +1,275 @@
+:root {
+    --prim: #121c29;
+    --sec: #ff8901;
+    --text: #596573;
+    --bgcolor:  #f4f4f6;
+    --buttoncolor: #213349;
+    --Headerforn: 'oswald', sans-serif;
+    --textfont: 'open sand condenced', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: oswald;
+    background-color: #f4f4f6; 
+}
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+}
+
+.clear {
+    display: none;
+}
+
+.top-header {
+    background-color: #121c29;
+}
+
+.top-header .inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.top-nav-list {
+    margin: 0px;
+}
+
+.top-nav-item {
+    display: inline;
+}
+
+.top-nav-item a {
+    color: grey;
+    text-decoration: none;
+}
+
+.top-link {
+    color: grey;
+    text-decoration: none;
+}
+
+.main-header .inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.main-nav-list {
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.main-nav-item {
+    display: inline;
+}
+
+.main-nav-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.button1 {
+    background-color: #213349;
+    padding: 7px 15px;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+}
+
+.button1:hover {
+    background-color: #ff8901;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.hero-img {
+    width: 100%;
+    box-sizing: border-box;
+    border: solid black 1px;
+    border-radius: 5px;
+}
+
+.content-section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.content-img {
+    width: 95%;
+    border: solid;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.smart {
+    box-sizing: border-box;
+    border: solid black 1px;
+    padding: 5px;
+}
+
+.strong {
+    box-sizing: border-box;
+    border: solid black 1px;
+    padding: 5px;
+}
+
+.stable {
+    box-sizing: border-box;
+    border: solid black 1px;
+    padding: 5px;
+}
+
+.button.more {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #213349;
+    padding: 7px 15px;
+    border-radius: 7px;
+    border-color: transparent;
+}
+
+button.more:hover {
+    background-color:#ff8901
+}
+
+.footer {
+    background-image: radial-gradient(at top, #325376, #121c29, #121c29);
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.footer-div ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.services {
+    width: calc(100%/3);
+}
+
+.services h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+}
+
+.services ul {
+    padding: 0px;
+}
+
+.service-list-item {
+    list-style-image: url('../media/cog.png');
+    line-height: 2.15;
+}
+
+.opportunities {
+    width: calc(100%/3);
+}
+
+.opportunities h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+}
+
+.opportunities p {
+    font-size: 13px;
+    color: rgb(72,84,100);
+}
+
+.opportunities a {
+    text-decoration: none;
+    color: white;
+}
+
+.opportunities ul {
+    padding: 0px;
+}
+
+.opp-list-item {
+    list-style-image: url('../media/chat.png');
+}
+
+.news {
+    width: calc(100%/3);
+}
+
+.news h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+}
+
+.news h3 {
+    margin: 0;
+}
+
+.news p {
+    margin: 0;
+    font-size: 13px;
+    color: rgb(72,84,100);
+}
+
+.news-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.news-list-item h3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.news ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.news li {
+    display: flex;
+    flex-grow: 2 1 auto;
+}
+
+.footer .date-div {
+    flex-basis: 60%;
+    border: solid orange;
+    background-color: orange;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    /* margin-right: 10px; */
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+.footer .date-div p {
+    color: white;
+}
+
+.colophon p {
+    margin-bottom: 0px;
+}
